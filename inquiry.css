@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+
+}
+/* navbar atrea  */
+#navbar{
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+#navbar h1{
+    margin:  10px 20px;
+    font-size: 35px;
+    color: rgb(52, 112, 202);
+}
+form{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    margin: 0px 25px;
+}
+form input{
+    display: block;
+    top: 0%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 0px 3px;
+    border: 0.1px solid grey;
+}
+::-webkit-input-placeholder{
+    font-weight: lighter;
+}
+.int{
+    padding: 0px 10px;
+    font-size: 15px;
+}
+.btn{
+    width: 20%;
+    margin: 0px 10px;
+    height: 40px;
+    border-radius: 5px;
+    border:none;
+    font-size: 15px;
+    font-weight: bolder;
+    background-color:rgb(52, 112, 202);
+    color: white;
+}
+.btn:hover{
+    background-color:rgb(9, 55, 125);
+}
+.para{
+    width: 60%;
+    color: rgb(52, 112, 202);
+}
+.para:hover{
+    color: rgb(15, 64, 138);
+    text-decoration-line: underline;
+}
+/* home-section */
+#home{
+    width: 100%;
+    height: 450px;
+    background-color: rgb(231, 231, 231);
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.box{
+    height: 300px;
+    width: 40%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px rgba(2, 52,94, 0.3);
+}
+.box h1, hr, p{
+    width: 80%;
+    margin: 10px auto;
+    
+}
+.int2{
+    width: 80%;
+    margin: 20px auto;
+    display: block;
+    height: 40px;
+    border-radius: 5px;
+    padding: 0px 20px;
+    font-size: 18px;
+}
+.downbtn{
+    float: right;
+    margin: 0px 8px;
+    width: 20%;
+    height: 40px;
+    border-radius: 5px;
+    border:none;
+    font-size: 15px;
+    font-weight: bolder;
+    background-color:rgb(52, 112, 202);
+    color: white;
+}
+.downbtn:hover{
+    background-color:rgb(9, 55, 125);
+}
+.downbtn2{
+    float: right;
+    margin: 0px 8px;
+    width: 20%;
+    height: 40px;
+    border-radius: 5px;
+    border:none;
+    font-size: 15px;
+    font-weight: bolder;
+    background-color:none;
+    color: black;
+}
+/* footer atra  */
+.info p{
+    width: 80%;
+    margin: 15px auto;
+}
+@media (max-width: 1150px){
+    #navbar h1{
+        font-size: 30px;
+    } 
+    form{
+        width: 70%;
+    }
+}
+@media (max-width: 750px){
+    #navbar{
+        flex-direction: column;
+        height: 100px;
+        background-color: rgb(231, 231, 231);
+justify-content: center;    } 
+    .int {
+        padding: 0px 0px;
+        font-size: 13px;
+    }
+    form {
+        width: 100%;
+        font-size: 15px;
+    }
+    .box {
+        width: 70%;
+        height: 350px;
+    }
+    form input{
+        width: 40%;
+    }
+}
+@media (max-width: 300px){
+    .box {
+        width: 90%;
+        height: 350px;
+    }
+    
+}
+
+
